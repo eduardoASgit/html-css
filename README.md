@@ -1,2 +1,4 @@
 # html-css
-Projetos HTML
+Projetos HTML + CSS e treinos
+
+Ainda aprendendo a gerenciar repositórios no GitHub!
