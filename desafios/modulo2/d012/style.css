@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: 'Passion One', cursive;
+    --fonte2: 'Sriracha', sans-serif;
+    }
+
+body {
+            background-image: linear-gradient();
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+            width: 600px;
+            padding: 10px;
+            margin:auto;
+        }
+        
+        div.fundo {
+            display: inline-block;
+            margin: 5px;
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+            border: 2px, solid black;
+        }
+
+        div#f1 {
+            background-color: black;
+            width: 590px;
+            height: 120px;
+        }
+
+        div#f2 {
+            background-color: whitesmoke;
+            border: 2px solid black;
+            width: 590px;
+        }
+
+        div#f3 {
+            background-image: url(imagens/background001.jpg);
+            width: 594px;
+            height: 514px; 
+            background-size: cover;
+            background-position: -138px;
+            background-attachment: fixed;   
+         }
+        
+        div#f4 {
+            background-color: whitesmoke;
+            border: 2px solid black;
+            width: 590px;
+            height: 550px;
+
+        }
+        
+        div#f5 {
+            background-image: url(imagens/background002.jpg);
+            width: 594px;
+            height: 514px; 
+            background-size: cover;
+            background-position: -138px;
+            background-attachment: fixed;
+        }
+        
+        div#f6 {
+            background-color: whitesmoke;
+            border: 2px solid black;
+            width: 590px;
+            height: 550px
+        }
+        
+        h1#titulo {
+        color: white;
+        text-align: center;
+        font-family: var(--fonte1);
+        }
+
+        p#f1 {
+        color: white;
+        text-align: center;
+        margin: -30px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p#f2 {
+            margin-top: 50px;
+            margin-left: 10px;
+            line-height: 30px;
+            font-family: var(--fonte2);
+        }
+
+        p#f3 {
+            color: white;
+            margin-top: 150px;
+            margin-left: 10px;
+            line-height: 30px;
+            background-color: rgba(0, 0, 0, 0.25);
+            background-attachment: fixed;
+            width: 195px;
+            font-family: var(--fonte2);
+        }
+
+        p#f4 {
+            margin-top: 50px;
+            margin-left: 10px;
+            line-height: 30px;
+            font-family: var(--fonte2);
+        }
+
+        p#f5 {
+            color: white;
+            margin-top: 150px;
+            margin-left: 10px;
+            line-height: 30px;
+            background-color: rgba(0, 0, 0, 0.534);
+            width: 195px;
+            font-family: var(--fonte2);
+        }

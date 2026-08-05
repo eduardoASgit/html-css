@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(pacote-projeto-d010/fontes/BebasNeue-Regular.ttf);
+}
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063D1E;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+}
+
+body {
+    background-color: var(--cor1);
+    line-height: 1.5em;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    color: white;
+    line-height: 2.0em;
+}
+
+#titulo {
+    font-family: var(--fonte1);
+}
+
+main {
+    font-family: var(--fonte0);
+    margin: auto;
+    min-width: 400px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 845px;
+    padding: 10px;
+};
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
