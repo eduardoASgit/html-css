@@ -38,16 +38,24 @@
         .num {
             text-align: right;
         }
+
+        caption {
+            font-size: 1.5em;
+            background-color: lightgray;
+            padding: 4px;
+        }
+        
     </style>
 </head>
 <body>
     <h1>Tabelas Grandes</h1>
 
      <table>
+        <caption><strong>População das Unidades Federativas</strong></caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 90px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -162,7 +170,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>214 211 951</strong></td>
             </tr>
         </tfoot>
